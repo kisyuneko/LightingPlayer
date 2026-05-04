@@ -328,7 +328,7 @@ All rights reserved.**
 もし LightingPlayer があなたの環境を少しでも楽しくしたり、「これは良い」と思っていただけたなら、寄付で応援してもらえると嬉しいです。
 
 **PayPal（寄付）**  
-(https://paypal.me/LightingPlayer)
+https://paypal.me/LightingPlayer
 寄付は任意であり、機能制限や特典の有無には一切影響しません。
 
 **商用での調整やカスタマイズをご希望の場合は、別途ご相談ください（有償）。**
