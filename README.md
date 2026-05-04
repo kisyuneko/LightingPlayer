@@ -1,4 +1,4 @@
-﻿![image](image/LP_Splash.png)
+![image](image/LP_Splash.png)
 
 # LightingPlayer
 **Author: Y.Komori**  
@@ -316,7 +316,13 @@ OpenRGB モードを使用するには、事前に OpenRGB（GUI）で初期設�
 LightingPlayer は個人開発のフリーソフトです。  
 商用・非商用を問わず自由に利用できます。
 
-本アプリケーションは OpenRGB を同梱していますが、LightingPlayer 自体は GPL ではなく、独立したアプリケーションとして提供されています。
+**Copyright (c) 2026 Y.Komori.  
+All rights reserved.**
+
+本アプリケーションは OpenRGB を同梱していますが、LightingPlayer 自体は GPL ではなく、独立したアプリケーションとして提供されています。  
+（OpenRGB のライセンスは GPLv2 に従います）
+
+本ソフトウェアは無保証であり、使用により発生したいかなる損害についても作者は責任を負いません。
 
 開発はすべて個人の時間で行っています。  
 もし LightingPlayer があなたの環境を少しでも楽しくしたり、「これは良い」と思っていただけたなら、寄付で応援してもらえると嬉しいです。
