@@ -1,0 +1,64 @@
+﻿# OpenRGB ライセンス通知（本アプリに同梱されています）
+
+本アプリケーションは、高度な RGB デバイス制御を行うために OpenRGB の実行ファイル（OpenRGB.exe）を同梱しています。  
+OpenRGB は GNU General Public License version 2（GPLv2）の下で提供されています。
+
+OpenRGB は外部の独立したプログラムとして同梱されており、本アプリケーションとリンクされていません。  
+また、OpenRGB のソースコードが本アプリケーションに組み込まれることもありません。
+
+通信は TCP を用いて OpenRGB SDK Server に対して行われる、  
+**独自に開発されたプロトコル互換クライアント実装** を通じてのみ実施されます。
+
+SDK Server の挙動を理解するため、OpenRGB 公式プロジェクトの以下の **サーバ側ファイル** を  
+資料として参考にしました：
+
+`NetworkProtocol.cpp` / `NetworkProtocol.h` / `NetworkServer.cpp` /  
+`RGBController.cpp` / `RGBController.h` / `RGBController_Dummy.cpp` /  
+`RGBController_Dummy.h` / `RGBController_Network.cpp` /  
+`RGBController_Network.h` / `RGBControllerKeyNames.cpp` / `RGBControllerKeyNames.h`
+
+これらのファイルは **プロトコル仕様・パケット構造・サーバ側の動作を理解するための資料としてのみ参考** しており、  
+ソースコードのコピー・移植・変換・翻訳・断片利用は一切行っていません。  
+なお、参照作業完了後、これらのファイルはリポジトリから削除済みであり、配布物にも含まれません。
+
+OpenRGB 公式プロジェクトはクライアント実装を専用のクライアント側ファイル群として分離していますが、  
+LightingPlayer は **これらのクライアント側コードを一切参考にしていません**（コード混入防止のため）。
+
+LightingPlayer のクライアント実装は、  
+**内部構造・処理手順・データモデルをすべて独自に再設計した完全な独立実装** です。
+
+したがって、本クライアント実装は **GPLv2 における「派生物」には該当しません**。
+
+GPLv2 に基づき、OpenRGB の完全なソースコードは以下から入手できます：  
+https://gitlab.com/CalcProgrammer1/OpenRGB
+
+
+# OpenRGB License Notice (Bundled with This Application)
+
+This application includes the OpenRGB executable (OpenRGB.exe) to enable advanced RGB device control.  
+OpenRGB is licensed under the GNU General Public License version 2 (GPLv2).
+
+OpenRGB is provided as an external, standalone program. It is not linked with this application, and no part of its source code is incorporated into this application.
+
+Communication is performed exclusively through an independently developed, protocol‑compatible client implementation over TCP to the OpenRGB SDK Server.
+
+To understand the behavior of the SDK Server, the following **server‑side files** from the official upstream OpenRGB project were consulted strictly as documentation:
+
+`NetworkProtocol.cpp`, `NetworkProtocol.h`, `NetworkServer.cpp`,  
+`RGBController.cpp`, `RGBController.h`, `RGBController_Dummy.cpp`,  
+`RGBController_Dummy.h`, `RGBController_Network.cpp`,  
+`RGBController_Network.h`, `RGBControllerKeyNames.cpp`, `RGBControllerKeyNames.h`
+
+These files were used **only as reference materials to understand protocol behavior and packet structure**.  
+No source code was copied, ported, translated, or reused in any form.  
+After the reference task was complete, these files were removed from the repository and are not included in any distributed build.
+
+The official upstream OpenRGB project separates its client implementation into dedicated client‑side source files.  
+LightingPlayer **did not consult or use any of these client‑side files as reference**, in order to prevent any possibility of code contamination.
+
+The LightingPlayer client implementation is a **fully independent design**, with all internal logic, data structures, and processing steps created entirely from scratch.
+
+Therefore, this implementation **does not constitute a “derivative work” under GPLv2**.
+
+In accordance with the GPLv2, the complete source code for OpenRGB is available at:  
+https://gitlab.com/CalcProgrammer1/OpenRGB
